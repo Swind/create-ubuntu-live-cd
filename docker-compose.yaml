@@ -1,0 +1,12 @@
+version: '3'
+services:
+  builder:
+    build: .
+    volumes:
+     - ./root:/root
+    working_dir: /root
+    stdin_open: true
+    tty: true
+    privileged: true
+    environment:
+     - HOME=/root

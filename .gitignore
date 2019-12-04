@@ -1,0 +1,4 @@
+*.iso
+live-ubuntu-from-scratch
+.wget-hsts
+.bash_history
